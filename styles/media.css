@@ -1,0 +1,365 @@
+@media (max-width: 1536px) {
+    .container {
+        max-width: 1120px;
+    }
+
+    .header {
+        height: 740px;
+    }
+
+    .header__block {
+        margin-top: 332px;
+        padding: 40px;
+    }
+
+    .description__image3 {
+        width: 628px;
+    }
+
+    .sponsor__image2 {
+        margin: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 952px;
+    }
+
+    .header {
+        background-image: url('../img/1024/background_header1.jpg');
+    }
+
+    .header__block {
+        margin-left: 364px;
+    }
+
+    .description__title {
+        width: 620px;
+    }
+
+    .description__text {
+        width: 788px;
+    }
+
+    .description__images {
+        flex-direction: column;
+    }
+
+    .description__images_top {
+        display: flex;
+    }
+
+    .description__image2 {
+        margin: 0;
+        margin-left: 32px;;
+    }
+
+    .description__image3 {
+        margin: 0;
+        margin-top: 32px;
+        height: 424px;
+    }
+
+    .sponsor__image2 {
+        margin-top: 25px;
+        margin-left: 75px;
+    }
+
+    .sponsor__title {
+        width: 460px;
+    }
+
+    .sponsor__text {
+        width: 460px;
+    }
+
+    .contest__header {
+        flex-direction: column;
+    }
+
+    .contest__header_title {
+        margin: 0;
+        margin-top: 15px;
+        width: 460px;
+    }
+
+    .contest__text{ 
+        width: 460px;
+    }
+
+    .contest__form {
+        margin-top: 98px;
+    }
+
+    .form {
+        margin: 0;
+    }
+
+    .contest__form_background {
+        margin: 0;
+        position: absolute;
+        margin-left: 44%;
+        margin-top: -40%;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 296px;
+    }
+
+    .header__container {
+        flex-direction: column;
+    }
+
+    .header {
+        background-image: url('../img/320/background_header1.jpg');
+        background-size: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 713px;
+    }
+
+    .header__nav  {
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .nav__link svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .nav__item:not(:first-child) {
+        margin-left: 28px
+    }
+
+    .header__logo {
+        margin: 0 auto;
+    }
+
+    .header__block {
+        margin: 0 auto;
+        margin-top: 451px;
+        padding: 30px 13px;
+        display: block;
+    }
+
+    .header__block_title {
+        font-size: 30px;
+        line-height: 30.63px;
+        width: 295px;
+        text-align: center;
+    }
+
+    .header__block_btn {
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+    .description__container {
+        margin: 0;
+    }
+
+    .description__title {
+        margin-top: 120px;
+        padding: 0 12px;
+        font-size: 30px;
+        line-height: 30.63px;
+        width: 100%;
+    }
+
+    .description__text {
+        padding: 0 12px;
+        font-size: 16px;
+        line-height: 32px;
+        width: 100%;
+    }
+
+    .description__images {
+        width: 320px;
+    }
+
+    .description__images_top {
+        flex-direction: column;
+    }
+
+    .description__image2 {
+        margin: 0;
+        margin-top: 32px;
+    }
+
+    .description__image3 {
+        margin: 0;
+        margin-top: 32px;
+    }
+
+    .contest__form {
+        flex-direction: column-reverse;
+    }
+
+    .contest__form_background {
+        position: relative;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    .contest__header_sale {
+        margin: 0 auto;
+    }
+
+    .contest__header_title {
+        font-size: 30px;
+        line-height: 30.63px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .contest__text {
+        font-size: 16px;
+        line-height: 32px;
+        width: 100%;
+    }
+
+    .contest__form {
+        margin-top: 70px;
+    }
+
+    .form input {
+        font-size: 16px;
+        line-height: 18.75px;
+    }
+
+    label {
+        font-size: 16px;
+        line-height: 18.75px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .form__btn {
+        font-size: 16px;
+        line-height: 18.75px;
+    }
+
+    .form__input_file {
+        padding: 51px 65px;
+    }
+
+    .sponsor__container {
+        flex-direction: column;
+    }
+    
+    .sponsor__image2 {
+        margin: 0 auto;
+    }
+
+    .sponsor__title {
+        font-size: 30px;
+        line-height: 30.63px;
+        width: 100%;
+    }
+
+    .sponsor__text {
+        font-size: 16px;
+        line-height: 32px;
+        width: 100%;
+    }
+
+    .sponsor__info {
+        margin: 0;
+        margin-top: 40px;
+    }
+
+    .sponsor__item_text {
+        font-size: 16px;
+        line-height: 18.75px;
+    }
+
+    .sponsor__item svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .sponsor__btn {
+        font-size: 16px;
+        line-height: 18.75px;
+    }
+
+    .store__container {
+        max-width: 320px;
+        margin: 0;
+        flex-direction: column;
+    }
+    
+    .store__info {
+        margin: 0 12px;
+        margin-top: 40px;
+        padding: 0;
+        padding-bottom: 70px;
+    }
+
+    .store__tilte {
+        font-size: 30px;
+        line-height: 30.63px;
+        width: 100%;
+    }
+
+    .store__list_title {
+        font-size: 20px;
+        line-height: 33.44px;
+    }
+
+    .store__item_top_text {
+        margin-left: 18px;
+        font-size: 16px;
+        line-height: 18.75px;
+    }
+
+    .store__item_top svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .store__info_bottom {
+        margin-top: 40px;
+    }
+
+    .store__logo:nth-child(2n) {
+        margin-left: 56px;
+    }
+
+    .documentation__container {
+        flex-direction: column;
+        padding: 40px 0;
+    }
+
+    .footer__logo {
+        margin: 0 auto;
+        width: 200px;
+        height: 50px;
+    }
+
+    .documentation__image {
+        margin: 0 auto;
+        margin-top: 25px;
+        width: 116px;
+        height: 50px;
+    }
+
+    .documentation__nav {
+        margin: 0 auto;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .documentation__item:last-child {
+        margin: 0;
+        margin-top: 15px;
+    }
+}
